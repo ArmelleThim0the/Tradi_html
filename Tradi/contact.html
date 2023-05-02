@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="La Tradi - restauration à emporter à Trouville-sur-mer, width=device-width, initial-scale=1.0">
+    <title>La Tradi</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="canonical" href="https://tradi-trouville.netlify.app/">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"/>
+  </head>
+
+<body class="container">
+
+    <header class="container">
+
+            <div class="container-full row">
+                <a href=""></a><img class="golo col-md-3" src="assets/images/tradlog(1).png" alt="logo">
+            
+                    <div class="place col-md-9">
+
+                        <div class="container text-center hdr">
+                            <div class="row">
+                                <div class="col-md-6"><h1 class="trd">LA TRADI</h1></div>                          
+                                <div class="col-md-9"><h2 class="fait"> DU FAIT MAISON,</h2></div>
+                                <div class="col-md-12"><h2 class="comme">COMME À LA MAISON</h2></div>
+                            </div>
+                        </div>    
+                    </div>
+            </div>
+            <br>
+
+            <div class="container-full row">
+            <div class="barre">
+                <nav>
+            <ul class="nav nav-full mnu">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">La carte</a>
+                    <ul>
+                        <li><a href="tacos.html">Tacos</a></li>
+                        <li><a href="burgers.html">Burgers</a></li>
+                        <li><a href="paninis.html">Paninis</a></li>
+                        <li><a href="croques.html">Croques</a></li>
+                        <li><a href="frites.html">Frites</a></li>
+                        <li><a href="desserts.html">Desserts</a></li>
+                        <li><a href="boissons.html">Boissons</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Nous contacter</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gestion.php">Espace administrateur</a>
+                </li>
+              </ul>
+                </nav>
+            </div>
+          </div>
+    </header>
+
+    <main>
+      <h2 style="display:flex; justify-content: center; font-family:'brownsugar';">Contact</h2>
+
+      <!-- Trigger/Open The Modal -->
+      <button style="margin-left: 2%;" id="myBtn">Ouvrir le formulaire</button>
+      
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+      
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          
+            <p class="form" style="font-family:brownsugar; font-size:35px; color:black; border:2px solid red; border-radius: 1em; padding:1em;">Votre demande :</p>
+
+            <div class="mb-3">
+              <form action="contact.html" method="post">
+              <label for="exampleFormControlInput1" class="form-label" style="font-family:aleolight; font-size:25px; color:black;">Adresse mail</label>
+              <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="nom@boitemail.com">
+            </div><br>
+        
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label" style="font-family:aleolight; font-size:25px; color:black;">Saisissez votre message</label>
+              <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="6"  placeholder="Saisissez du texte ici"></textarea>
+            </div>
+        
+            <div class="send">
+              <button class="btn btn-secondary" type="submit" style="font-family:aleolight; font-size:22px;">Envoyer</button>
+            </div>
+              </form>
+        </div>
+      
+      </div>
+  </main>
+    
+  <footer>
+
+    <div class="brand">
+        <p>&#169; Armelle Thimothé - Tous droits réservés</p>
+    </div>
+
+  </footer>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
